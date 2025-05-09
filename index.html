@@ -2,26 +2,48 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Tienda Online</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Tienda Online</title>
+  <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
-  <header>
-    <h1>Tienda Online</h1>
-    <p>Los mejores productos al mejor precio</p>
-  </header>
 
-  <main>
-    <section id="productos" class="grid-productos">
-      <!-- Productos se insertan con JavaScript -->
-    </section>
+  <!-- Navbar -->
+  <nav>
+    <ul class="navbar">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="#" id="carrito">Carrito (0)</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main class="contenedor-productos">
+    <h1>Productos Destacados</h1>
+
+    <div class="producto">
+      <img src="img/zapatos.jpg" alt="Zapatos" />
+      <h2>Zapatillas Deportivas</h2>
+      <p>S/150.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="img/mochila.jpg" alt="Mochila" />
+      <h2>Mochila Escolar</h2>
+      <p>S/90.00</p>
+      <button>Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+      <img src="img/audifonos.jpg" alt="Audífonos" />
+      <h2>Audífonos Bluetooth</h2>
+      <p>S/120.00</p>
+      <button>Agregar al carrito</button>
+    </div>
   </main>
 
-  <footer>
-    <p>&copy; 2025 Tienda Online. Todos los derechos reservados.</p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
