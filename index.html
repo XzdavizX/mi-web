@@ -3,65 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi Primera Página Web</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #1e90ff;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    main {
-      padding: 30px;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 10px;
-    }
-    .boton {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #28a745;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      background: #222;
-      color: #ccc;
-      padding: 10px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }
-  </style>
+  <title>Tienda Online</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Bienvenido a Mi Sitio Web</h1>
-    <p>Mi primera página hecha con HTML y GitHub Pages</p>
+    <h1>Tienda Online</h1>
+    <p>Los mejores productos al mejor precio</p>
   </header>
 
   <main>
-    <h2>Sobre mí</h2>
-    <p>Hola, soy un desarrollador principiante aprendiendo a subir sitios web con GitHub. Esta es mi primera página práctica.</p>
-
-    <img src="https://picsum.photos/800/300" alt="Imagen de ejemplo"/>
-
-    <a class="boton" href="https://github.com" target="_blank">Visita GitHub</a>
+    <section id="productos" class="grid-productos">
+      <!-- Productos se insertan con JavaScript -->
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Mi Nombre. Todos los derechos reservados.</p>
+    <p>&copy; 2025 Tienda Online. Todos los derechos reservados.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
